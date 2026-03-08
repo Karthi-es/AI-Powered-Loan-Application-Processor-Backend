@@ -1,0 +1,27 @@
+scoring:
+  income_verification_weight: 30
+  income_level_weight: 25
+  account_stability_weight: 20
+  employment_status_weight: 15
+  debt_to_income_weight: 10
+
+thresholds:
+  auto_approve: 75
+  manual_review: 50
+
+income_tolerance: 0.10
+
+disbursement:
+  webhook_timeout_seconds: 120
+  retry_attempts: 3
+  retry_delay_seconds: 30
+  escalate_to_manual_review_after_seconds: 120
+
+duplicate_window_minutes: 5
+
+database:
+  url: "sqlite:///./loan_app.db"
+
+admin:
+  username: "admin"
+  password: "admin123"
