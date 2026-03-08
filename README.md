@@ -117,7 +117,7 @@ Swagger UI:
 - `POST /applications`
 - `POST /applications/bulk`
 
-### Admin (Basic Auth)
+### Admin (Basic Auth) - check `config.yaml`
 
 - `GET /admin/applications?status=flagged_for_review`
 - `GET /admin/applications/{application_id}`
